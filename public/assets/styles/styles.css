@@ -125,13 +125,12 @@ header .home-buttons button:hover {
 .home-services {
   display: flex;
   align-items: center;
-  padding: 120px;
+  padding: 100px;
   justify-content: center;
   font-family: "Inder", sans-serif;
 }
 .home-services img {
   max-width: 50%;
-  margin-right: 500px;
 }
 .home-services .servicios-content {
   margin-left: 80px;
@@ -372,7 +371,8 @@ footer nav li {
   align-items: center;
   gap: 20px;
   padding: 0 20px;
-  font-size: 22px;
+  font-size: 18px;
+  font-family: "Poppins";
   border-bottom: 2px solid rgba(0, 0, 0, 0.509);
 }
 .conoce-mas .quienes-somos {
@@ -453,6 +453,7 @@ footer nav li {
   align-items: center;
   margin-top: 3rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.509);
+  font-family: "Poppins";
 }
 .servicios-container h1 {
   font-size: 30px;
@@ -490,6 +491,7 @@ footer nav li {
   margin: auto;
   padding: 0 0 80px 0;
   padding: 80px 0;
+  font-family: "Poppins";
 }
 
 .contacto-container h1 {
@@ -506,6 +508,7 @@ footer nav li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-family: "Poppins";
 }
 
 .contacto-container .input {
@@ -521,6 +524,7 @@ footer nav li {
 .contacto-container .input::placeholder {
   color: black;
   font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
 }
 
 .contacto-container input[type=text],
@@ -545,6 +549,7 @@ footer nav li {
   padding: 14px 0;
   margin: auto;
   display: block;
+  font-family: "Poppins";
 }
 
 .contacto-container input[type=submit]:hover {

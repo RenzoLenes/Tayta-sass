@@ -147,19 +147,17 @@ header {
 .home-container{
     border-bottom: 2px solid rgba(0, 0, 0, 0.509);
 }
-///
 
 
 .home-services {
     display: flex;
     align-items: center;
-    padding: 120px;
+    padding: 100px;
     justify-content: center;
     font-family: 'Inder', sans-serif;
 
     img {
         max-width: 50%;
-        margin-right: 500px;
     }
 
     .servicios-content {
@@ -449,7 +447,8 @@ footer {
     align-items: center;
     gap: 20px;
     padding: 0 20px;
-    font-size: 22px;
+    font-size: 18px;
+    font-family: 'Poppins';
     border-bottom: 2px solid rgba(0, 0, 0, 0.509);
 
     .quienes-somos {
@@ -550,6 +549,7 @@ footer {
     align-items: center;
     margin-top: 3rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.509);
+    font-family: 'Poppins';
 
     h1 {
         font-size: 30px;
@@ -595,6 +595,7 @@ footer {
     margin: auto;
     padding: 0 0 80px 0;
     padding: 80px 0;
+    font-family: 'Poppins';
 }
 
 .contacto-container h1 {
@@ -611,6 +612,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: 'Poppins';
 }
 
 .contacto-container .input {
@@ -621,11 +623,13 @@ footer {
     border: 1px solid black;
     padding: 20px 10px;
     box-sizing: border-box;
+    
 }
 
 .contacto-container .input::placeholder {
     color: black;
     font-family: "Raleway", sans-serif;
+    font-family: 'Poppins';
 }
 
 .contacto-container input[type=text],
@@ -650,7 +654,7 @@ footer {
     padding: 14px 0;
     margin: auto;
     display: block;
-    
+    font-family: 'Poppins';
 }
 .contacto-container input[type=submit]:hover {
     background-color: #39d2f485;
